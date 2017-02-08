@@ -12,3 +12,6 @@ Follow these steps to reproduce the issue
 3. Run webpack
 4. Run ```http-server``` in the root of the repo
 5. Observe the console.
+
+![Alt with worker-loader](https://github.com/rahulgandhi/webpack_webworker/blob/master/with%20worker_loader.png)
+![Alt without worker-loader](https://github.com/rahulgandhi/webpack_webworker/blob/master/without%20worker_loader.png)
