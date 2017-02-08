@@ -1,0 +1,24 @@
+{
+  "name": "webpack_webworker",
+  "version": "1.0.0",
+  "description": "When using a worker-loader in webpack to load the worker, importScripts inside the worker no longer maintain the worker context. Which it should according to https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulgandhi/webpack_webworker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulgandhi/webpack_webworker/issues"
+  },
+  "homepage": "https://github.com/rahulgandhi/webpack_webworker#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "webpack": "^2.2.1",
+    "worker-loader": "^0.7.1"
+  }
+}
